@@ -71,7 +71,7 @@ def extract_and_download(data):
 
 
 if __name__ == "__main__":
-    base_dir = os.path.dirname(os.path.abspath(os.path.join(__file__)))
+    base_dir = os.path.dirname(os.path.abspath(__file__))
     folder_name = "images"
     folder_path = os.path.join(base_dir, folder_name)
     if not os.path.exists(folder_path):
